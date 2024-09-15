@@ -5,8 +5,7 @@
 **Dataset**: Our Dataset comes from the IPeds (Integrated Postsecondary Education Data System) database.
 We worked with and joined ___ tables together to form the main dataset used for this analysis.
 
-# Note: 
-The variables listed below are the variables used in our Regression Model. These are not all the variables found within the datasets.
+### Note: The variables listed below are the variables used in our Regression Model. These are not all the variables found within the datasets.
 
 ***Ipeds.Salaries***: This dataset contained data on instructional staff salaries for each university.
 * sa09mct --> Total number of Instructional Staff on 9-Month Contract.
