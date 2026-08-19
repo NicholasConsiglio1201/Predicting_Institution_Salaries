@@ -1,0 +1,17 @@
+{
+  "_captured_at": "2026-08-19T15:40:49Z",
+  "_captured_run_id": "r_ad7583db3c654966a4791d69dd1881dd",
+  "status": "ok",
+  "exit_code": 1,
+  "log_contains": [
+    "NOTE: Wrote work.combined3 (12 rows, 36 columns).",
+    "NOTE: PROC GLM statement used.",
+    "NOTE: PROC PRINT completed: 12 observations printed, 3 variables",
+    "NOTE: PROC SGPLOT output written to: ./ods_output/sgplot.svg"
+  ],
+  "log_does_not_contain": ["ERROR:", "[JENNER-ERROR"],
+  "diagnostics": {"parse_warnings": [], "runtime_warnings": [
+    "The variable LASTUNITID in the DROP, KEEP, or RENAME list has never been referenced.",
+    "PROC GLM: the Type III sums of squares are not computed for this design. It has empty cells, so the model has aliased coefficients and the partial sums of squares are not estimable. The Type I (sequential) sums of squares are reported instead."
+  ]}
+}

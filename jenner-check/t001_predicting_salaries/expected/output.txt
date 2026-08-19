@@ -1,0 +1,72 @@
+                     The GLM Procedure                     
+                  Class Level Information                  
+
+Class                  Levels  Values                      
+-------------------  --------  ----------------------------
+institution_control         2  Private Public              
+enroll_profile              2  Fulltime Parttime           
+region                      4  Midwest Northeast South West
+locale                      4  City Rural Suburb Town      
+
+Number of Observations Read        12
+Number of Observations Used        12
+
+                              The GLM Procedure                               
+                      Dependent Variable: average_salary                      
+
+Source                 DF   Sum of Squares     Mean Square   F Value    Pr > F
+---------------  --------  ---------------  --------------  --------  --------
+Model                  11  376000311.68709  34181846.51701                    
+Error                   0          0.00000                                    
+Corrected Total        11  376000311.68709                                    
+
+R-Square  Coeff Var  Root MSE  average_salary Mean
+--------  ---------  --------  -------------------
+1.000000                              82559.869167
+
+Source                     DF        Type I SS      Mean Square   F Value    Pr > F
+-------------------  --------  ---------------  ---------------  --------  --------
+graduation_rate             1   84267861.55809   84267861.55809                    
+total_staff                 1  200173584.05109  200173584.05109                    
+roomamt                     1   28304525.73863   28304525.73863                    
+total_cohort                1     773546.72268     773546.72268                    
+in_state_tuition            1   51315317.86083   51315317.86083                    
+mf_staff_ratio              1    1679703.45932    1679703.45932                    
+institution_control         1      22472.67119      22472.67119                    
+enroll_profile              1     135660.30553     135660.30553                    
+roomcap                     1    2811527.08878    2811527.08878                    
+region                      2    6516112.23095    3258056.11547                    
+
+                            Parameter Estimates                            
+
+Parameter                      Estimate  Standard Error   t Value  Pr > |t|
+--------------------------  -----------  --------------  --------  --------
+Intercept                   65404.62962                         .         .
+graduation_rate             26683.93070                         .         .
+total_staff                  -126.70037                         .         .
+roomamt                        10.85891                         .         .
+total_cohort                   43.89773                         .         .
+in_state_tuition              -10.29821                         .         .
+mf_staff_ratio              -3039.02035                         .         .
+institution_control Public   -601.94061                         .         .
+enroll_profile Parttime     -1666.23873                         .         .
+roomcap                        10.84792                         .         .
+region South                 1329.89531                         .         .
+region West                 -3813.89613                         .         .
+
+
+  Obs        instname  average_salary  predicted_average_salary
+-----  --------------  --------------  ------------------------
+    1  State_Univ_A             80000                   $80,000
+    2  State_Univ_B             85000                   $85,000
+    3  Private_Coll_C           87500                   $87,500
+    4  State_Univ_D          71111.11                   $71,111
+    5  Private_Univ_E           90000                   $90,000
+    6  State_Coll_F          76666.67                   $76,667
+    7  State_Univ_G          85333.33                   $85,333
+    8  Private_Coll_H        82222.22                   $82,222
+    9  State_Univ_I          87636.36                   $87,636
+   10  State_Coll_J          74545.45                   $74,545
+   11  Private_Univ_K        83846.15                   $83,846
+   12  State_Univ_L          86857.14                   $86,857
+
